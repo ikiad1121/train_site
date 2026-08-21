@@ -1,0 +1,68 @@
+.timetable{
+    border-collapse:collapse;
+}
+
+.weekdays{
+    background-color:#80bcff;
+    color:var(--white);
+    font-size:20px;
+    padding:5px 15px 5px 5px;
+}
+
+.holidays{
+    background-color:#ffa4cc;
+    color:var(--white);
+    font-size:20px;
+    padding:5px;
+}
+
+.odd, .even, .remarks{
+    display:block;
+}
+
+.odd{
+    background-color:#ececec;
+}
+
+.even{
+    background-color:#d8d8d8;
+}
+
+.times{
+    width:26px;
+    background-color:var(--gray);
+    border:1px solid var(--gray);
+    color:var(--white);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lcl, .exp, .commuter-exp{
+    display:inline-block;
+    width:22px;
+    height:22px;
+    margin:2px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lcl{
+    border:1px solid #0000;
+}
+
+.exp{
+    background-color:#ffcc00;
+    border:1px solid var(--black);
+}
+
+.commuter-exp{
+    background-color:#ffcc00;
+    border:1px solid var(--black);
+    border-radius:11px;
+}
+
+.arrs{
+    font-size:11px;
+    text-align:left;
+    margin-right:4px;
+}

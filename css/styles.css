@@ -1,0 +1,145 @@
+:root{
+    --black:#000000;
+    --gray:#808080;
+    --white:#ffffff;
+
+    --red:#ff0000;
+    --green:#00ff00;
+    --blue:#0000ff;
+    --yellow:#ffff00;
+    --mazenta:#ff00ff;
+    --cyan:#00ffff;
+
+    --orange:#ff8000;
+    --pink:#ff0080;
+    --leaf:#00ff80;
+    --yellow-green:#80ff00;
+    --purple:#8000ff;
+    --sky:#0080ff;
+
+    --right-red:#ff8080;
+    --right-green:#80ff80;
+    --right-blue:#8080ff;
+    --right-yellow:#ffff80;
+    --right-mazenta:#ff80ff;
+    --right-cyan:#80ffff;
+
+    --dark-red:#800000;
+    --dark-green:#008000;
+    --dark-blue:#000080;
+    --dark-yellow:#808000;
+    --dark-mazenta:#800080;
+    --dark-cyan:#008080;
+}
+
+.stations-table{
+    border-spacing: 0;
+}
+
+.stations-exp-top{
+    background-color: var(--orange);
+    color: var(--orange);
+    font-size:16px;
+    border-radius:12px 0 0 12px;
+    padding:0;
+}
+
+.stations-exp{
+    background-color: var(--orange);
+    color: var(--white);
+    font-size:16px;
+    text-align:center;
+    padding:0;
+}
+
+.stations-exp-pass{
+    background-color: var(--orange);
+    color: var(--orange);
+    font-size:16px;
+    text-align:center;
+    padding:0;
+}
+
+.stations-exp-bottom{
+    background-color: var(--orange);
+    color: var(--orange);
+    font-size:16px;
+    border-radius:0 12px 12px 0;
+    padding:0;
+}
+
+.stations-local-top{
+    background-color: var(--sky);
+    color: var(--sky);
+    font-size:16px;
+    border-radius:12px 0 0 12px;
+    padding:0;
+}
+
+.stations-local{
+    background-color: var(--sky);
+    color: var(--white);
+    font-size:16px;
+    text-align:center;
+    padding:0;
+}
+
+.stations-local-bottom{
+    background-color: var(--sky);
+    color: var(--sky);
+    font-size:16px;
+    border-radius:0 12px 12px 0;
+    padding:0;
+}
+
+.stations-name{
+    padding:3px 5px 0 5px;
+    writing-mode: vertical-rl;
+    font-size:20px;
+}
+
+a ,a:visited{
+    text-decoration: none;
+    color:var(--sky);
+}
+
+a:hover{
+    text-decoration: underline;
+    color:var(--sky);
+}
+
+.stations ,.stations:hover,.stations:visited{
+    text-decoration: none;
+    color:var(--black);
+}
+
+.frame, .frame td{
+    border:1px solid #333333;
+    border-collapse:collapse;
+}
+
+.frame td{
+    padding:5px;
+}
+
+.f-up{
+    background-color: #99ccff;
+}
+
+.f-down{
+    background-color: #99ffcc;
+}
+
+
+.alert{
+    color:var(--red);
+}
+
+.form_large{
+    font-size:18px;
+    padding:1px 0;
+}
+
+.mini{
+    font-size:14px;
+}

@@ -1,0 +1,37 @@
+.namesign{
+    border:1px solid #666666;
+    background-color:#eeeeee;
+    width:50%;
+}
+
+.ns-main, .ns-sub{
+    text-align:center;
+    margin:5px;
+}
+
+.ns-main{
+    font-size:36px;
+}
+
+.ns-sub{
+    font-size:16px;
+}
+
+.ns-left, .ns-right{
+    font-size:20px;
+    margin:3px;
+}
+
+.ns-left span, .ns-right span{
+    font-size:10px;
+}
+
+.ns-left{
+    padding-left:3px;
+    text-align:left;
+}
+
+.ns-right{
+    padding-right:3px;
+    text-align:right;
+}
